@@ -1,0 +1,7 @@
+/* CSS for update view */
+.update-form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
