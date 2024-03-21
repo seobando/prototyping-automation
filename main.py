@@ -4,6 +4,8 @@ from generative_ai.client import open_ai
 from generative_ai.const import prompt
 from generative_ai.prettify import prettify_text
 from generative_ai.templates import html_template
+from project_manager.client import get_user_story
+from generative_ai.prompt import create_prompt
 
 
 def get_completition(client, prompt, model="gpt-3.5-turbo"):
@@ -56,6 +58,9 @@ def generate_documents(data_dict, folder_name):
 
 if __name__ == "__main__":
     folder_name = "prototypes"
+    ticket_id = "E3IG-3"
+    user_story = get_user_story(ticket_id)
+    prompt = create_prompt(user_story)
     response = get_completition(open_ai, prompt, model="gpt-3.5-turbo")
     data_dict = get_data_dict(response)
     generate_documents(data_dict, folder_name)

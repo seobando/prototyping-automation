@@ -6,7 +6,7 @@ JIRA_DOMAIN = os.environ.get("JIRA_DOMAIN")
 JIRA_API_TOKEN = os.environ.get("JIRA_API_TOKEN")
 JIRA_USER_EMAIL = os.environ.get("JIRA_USER_EMAIL")
 
-def get_ticket_description(ticket_id):
+def get_user_story(ticket_id):
     url = f"https://{JIRA_DOMAIN}/rest/api/3/issue/{ticket_id}"
     auth = HTTPBasicAuth(JIRA_USER_EMAIL, JIRA_API_TOKEN)
     headers = {
@@ -22,4 +22,7 @@ def get_ticket_description(ticket_id):
 
     # Parse the JSON response and return the description
     ticket_data = response.json()
-    return ticket_data.get('fields', {}).get('description', 'Description not found')
+    description = ticket_data.get('fields', {}).get('description', 'Description not found')
+    
+    
+    return description
