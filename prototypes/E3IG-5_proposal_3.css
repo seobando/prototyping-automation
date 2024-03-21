@@ -1,0 +1,14 @@
+/* Add CSS styling here */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f6f6f6;
+}
+
+.chart-container {
+    width: 85%;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

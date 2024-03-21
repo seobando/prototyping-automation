@@ -1,4 +1,4 @@
-/* CSS for CRUD form */
+/* CSS for form styling */
 form {
     margin: 20px;
     padding: 20px;
@@ -21,4 +21,12 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+/* CSS for detail view */
+.detail {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }

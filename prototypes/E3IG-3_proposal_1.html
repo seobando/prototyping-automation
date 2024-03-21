@@ -9,14 +9,26 @@
   <link href="E3IG-3_proposal_1.css" rel="stylesheet" type="text/css"/>
  </head>
  <body>
-  <!-- HTML for CRUD form -->
+  <!-- HTML for form -->
   <form>
    <input placeholder="Name" type="text"/>
    <input placeholder="Age" type="text"/>
-   <button id="submitBtn">
+   <button onclick="validateForm()">
     Submit
    </button>
   </form>
+  <!-- HTML for detail view -->
+  <div class="detail">
+   <p>
+    Name: John Doe
+   </p>
+   <p>
+    Age: 30
+   </p>
+   <button onclick="updateHistory()">
+    Update
+   </button>
+  </div>
  </body>
  <script src="E3IG-3_proposal_1.js">
  </script>

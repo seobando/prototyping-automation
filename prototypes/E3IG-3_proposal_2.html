@@ -9,20 +9,25 @@
   <link href="E3IG-3_proposal_2.css" rel="stylesheet" type="text/css"/>
  </head>
  <body>
+  <!-- HTML for form -->
+  <form>
+   <input placeholder="Name" type="text"/>
+   <input placeholder="Age" type="text"/>
+   <button onclick="validateForm()">
+    Submit
+   </button>
+  </form>
   <!-- HTML for detail view -->
-  <div class="detail-container">
-   <h2>
-    Detail View
-   </h2>
+  <div class="detail">
    <p>
-    Name: John Doe
+    Name: Jane Smith
    </p>
    <p>
-    Age: 30
+    Age: 25
    </p>
-   <p>
-    Diagnosis: Lorem ipsum dolor sit amet
-   </p>
+   <button onclick="updateHistory()">
+    Update
+   </button>
   </div>
  </body>
  <script src="E3IG-3_proposal_2.js">

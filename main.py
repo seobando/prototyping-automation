@@ -58,9 +58,14 @@ def generate_documents(ticket_id, data_dict, folder_name):
 
 if __name__ == "__main__":
     folder_name = "prototypes"
-    ticket_id = "E3IG-3"
-    user_story = get_user_story(ticket_id)
-    prompt = create_prompt(user_story)
-    response = get_completition(open_ai, prompt, model="gpt-3.5-turbo")
-    data_dict = get_data_dict(response)
-    generate_documents(ticket_id, data_dict, folder_name)
+    tickets = ["E3IG-3", "E3IG-4", "E3IG-5"]
+    for ticket_id in tickets:
+        try:
+            user_story = get_user_story(ticket_id)
+            prompt = create_prompt(user_story)
+            response = get_completition(open_ai, prompt, model="gpt-3.5-turbo")
+            data_dict = get_data_dict(response)
+            generate_documents(ticket_id, data_dict, folder_name)            
+        except:
+            print(f"Please check the ticket {ticket_id} description")
+
