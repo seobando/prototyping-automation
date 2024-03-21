@@ -1,9 +1,9 @@
 import ast
 import os
-from client import open_ai
-from const import prompt
-from prettify import prettify_text
-from templates import html_template
+from generative_ai.client import open_ai
+from generative_ai.const import prompt
+from generative_ai.prettify import prettify_text
+from generative_ai.templates import html_template
 
 
 def get_completition(client, prompt, model="gpt-3.5-turbo"):
