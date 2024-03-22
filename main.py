@@ -61,6 +61,7 @@ if __name__ == "__main__":
     tickets = ["E3IG-3", "E3IG-4", "E3IG-5", "E3IG-6"]
     for ticket_id in tickets:
         try:
+            print("--------Ticket:", ticket_id,"--------")
             user_story = get_user_story(ticket_id)
             prompt = create_prompt(user_story)
             response = get_completition(open_ai, prompt, model="gpt-3.5-turbo")
