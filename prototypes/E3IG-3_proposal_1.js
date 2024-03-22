@@ -1,8 +1,4 @@
-// JavaScript for form validation
-function validateForm() {
-    // Add validation logic here
-}
-// JavaScript for updating history
-function updateHistory() {
-    // Add update logic here
-}
+// JavaScript for CRUD form
+document.getElementById('submitBtn').addEventListener('click', function() {
+    // Code to submit form data
+});

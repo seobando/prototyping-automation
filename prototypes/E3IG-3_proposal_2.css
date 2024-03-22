@@ -1,32 +1,7 @@
-/* CSS for form styling */
-form {
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid #333;
-    border-radius: 10px;
-}
-
-input {
-    width: 100%;
-    padding: 10px;
-    margin: 5px 0;
-    border: 1px solid #333;
-    border-radius: 5px;
-}
-
-button {
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
 /* CSS for detail view */
-.detail {
+.detail-container {
     margin: 20px;
     padding: 20px;
-    border: 1px solid #333;
-    border-radius: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }

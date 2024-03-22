@@ -1,2 +1,2 @@
-// Add JavaScript code here
-// Use D3.js library to create interactive data visualizations
+// Add JavaScript functionality here
+// Code to analyze and display disease symptoms data

@@ -1,7 +1,7 @@
-/* Add CSS styling here */
+/* CSS for proposal 2 */
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f8f8f8;
+    background-color: #f9f9f9;
 }
 
 .container {
@@ -11,4 +11,9 @@ body {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    color: #555;
+    text-align: center;
 }

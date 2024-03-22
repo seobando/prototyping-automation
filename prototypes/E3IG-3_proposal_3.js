@@ -1,8 +1,4 @@
-// JavaScript for form validation
-function validateForm() {
-    // Add validation logic here
-}
-// JavaScript for updating history
-function updateHistory() {
-    // Add update logic here
-}
+// JavaScript for update view
+document.getElementById('updateBtn').addEventListener('click', function() {
+    // Code to update form data
+});

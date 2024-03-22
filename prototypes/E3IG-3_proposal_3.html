@@ -9,26 +9,14 @@
   <link href="E3IG-3_proposal_3.css" rel="stylesheet" type="text/css"/>
  </head>
  <body>
-  <!-- HTML for form -->
-  <form>
-   <input placeholder="Name" type="text"/>
-   <input placeholder="Age" type="text"/>
-   <button onclick="validateForm()">
-    Submit
-   </button>
-  </form>
-  <!-- HTML for detail view -->
-  <div class="detail">
-   <p>
-    Name: Sarah Johnson
-   </p>
-   <p>
-    Age: 35
-   </p>
-   <button onclick="updateHistory()">
+  <!-- HTML for update view -->
+  <form class="update-form">
+   <input placeholder="New Name" type="text"/>
+   <input placeholder="New Age" type="text"/>
+   <button id="updateBtn">
     Update
    </button>
-  </div>
+  </form>
  </body>
  <script src="E3IG-3_proposal_3.js">
  </script>

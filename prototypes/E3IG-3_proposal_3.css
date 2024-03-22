@@ -1,32 +1,7 @@
-/* CSS for form styling */
-form {
+/* CSS for update view */
+.update-form {
     margin: 20px;
     padding: 20px;
-    border: 1px solid #666;
-    border-radius: 8px;
-}
-
-input {
-    width: 100%;
-    padding: 10px;
-    margin: 5px 0;
-    border: 1px solid #666;
+    border: 1px solid #ccc;
     border-radius: 5px;
-}
-
-button {
-    padding: 10px 20px;
-    background-color: #666;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-/* CSS for detail view */
-.detail {
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid #666;
-    border-radius: 8px;
 }

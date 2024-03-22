@@ -1,0 +1,19 @@
+/* CSS for proposal 3 */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f6f6f6;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #444;
+    text-align: center;
+}
